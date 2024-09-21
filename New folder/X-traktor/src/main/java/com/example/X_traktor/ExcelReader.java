@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class ExcelReader {
     public static void main(String[] args) {
-        String excelFilePath = "C:\\Users\\HP\\Desktop\\file1.xlsx";
+        String excelFilePath = "file1.xlsx";
         try (FileInputStream fis = new FileInputStream(new File(excelFilePath));
              Workbook workbook = new XSSFWorkbook(fis)) {
 
